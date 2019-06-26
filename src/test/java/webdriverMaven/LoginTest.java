@@ -25,6 +25,7 @@ public class LoginTest {
 	@Test
 	public void doLogin() throws Exception{
 		
+		//Using EGit pluing
 		driver.get("http://182.75.137.26:7777/iSafeHome/");
 		Thread.sleep(2000);
 		driver.findElement(By.name("username")).sendKeys("appsteksolutionspvtltd@gmail.com");
